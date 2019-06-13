@@ -1,7 +1,6 @@
 import express from "express";
 import mongoose from "mongoose";
-
-const app = express();
+import app from "./app";
 
 const PORT = 5678;
 const mongoURI = "mongodb://localhost/virtua-overflow";
